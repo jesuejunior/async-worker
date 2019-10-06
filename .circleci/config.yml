@@ -16,7 +16,7 @@ commands:
   all-tests:
     description: "Roda todos os testes do projeto (unitários e integração)"
     steps:
-      - run: "pipenv run all-tests"
+      - run: "pipenv run tests"
   typehint-cov:
     description: "Upload de coverage de typehint"
     steps:
